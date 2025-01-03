@@ -1,23 +1,22 @@
 ## CodeLimit Report
 
 ### Overview
-| **Language** | **Files** | **Lines of Code** | **Functions** | **⚠** | **❌** |
+| **Language** | **Files** | **Functions** | **Lines of Code** | **⚠** | **⛌** |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Java | 889 | 25935 | 4780 | 23 | 1 |
-| JavaScript | 2 | 35 | 22 | 0 | 0 |
-| **Totals** | **891** | **25970** | **4802** | **23** | **1** |
+| Java | 889 | 4768 | 25769 | 23 | 0 |
+| JavaScript | 2 | 22 | 35 | 0 | 0 |
+| **Totals** | **891** | **4790** | **25804** | **23** | **0** |
 
 ### Summary
-| **Easy / Verbose** | **Hard-to-maintain ⚠** | **Unmaintainable ❌** |
+| **Easy / Verbose** | **Hard-to-maintain ⚠** | **Unmaintainable ⛌** |
 | ---: | ---: | ---: |
-| 95% | 4% | 1% |
+| 96% | 4% | 0% |
 
-🛑 1% of the functions are unmaintainable, refactoring necessary.
+✅ 96% of the functions are maintainable, no refactoring necessary.
 
 ### Findings
 | **Function** | **Length** | **File** |
 | --- | ---: | --- |
-| ❌ [apply](https://github.com/robvanderleek/junit5/blob/HEAD/junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java#L208-L288) | 62 | junit-platform-commons/src/main/java/org/junit/platform/commons/function/Try.java |
 | ⚠ [assertLinesMatchWithFastForward](https://github.com/robvanderleek/junit5/blob/HEAD/junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertLinesMatch.java#L115-L186) | 54 | junit-jupiter-api/src/main/java/org/junit/jupiter/api/AssertLinesMatch.java |
 | ⚠ [resolve](https://github.com/robvanderleek/junit5/blob/HEAD/junit-platform-engine/src/main/java/org/junit/platform/engine/support/discovery/EngineDiscoveryRequestResolution.java#L119-L166) | 48 | junit-platform-engine/src/main/java/org/junit/platform/engine/support/discovery/EngineDiscoveryRequestResolution.java |
 | ⚠ [provideArguments](https://github.com/robvanderleek/junit5/blob/HEAD/junit-jupiter-params/src/main/java/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java#L42-L93) | 48 | junit-jupiter-params/src/main/java/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java |
